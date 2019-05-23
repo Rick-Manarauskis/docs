@@ -171,6 +171,14 @@ Add a step to your Build or Release process, choose **Package**, click **Add**
 
 See the [Extension Marketplace page](https://marketplace.visualstudio.com/items?itemName=octopusdeploy.octopus-deploy-build-release-tasks) for a description of the fields (or the [Octo.exe command-line options](/docs/api-and-integration/octo.exe-command-line/push.md) for more details).
 
+### Add a Push Package Metadata to Octopus Step {#UsetheTeamFoundationBuildCustomTask-AddaPushMetadataStep}
+
+Add a step to your Build or Release process, choose **Package**, click **Add** the **Push Package Metadata to Octopus** task.
+
+![](push-package-metadata-options.png)
+
+See the [Extension Marketplace page](https://marketplace.visualstudio.com/items?itemName=octopusdeploy.octopus-deploy-build-release-tasks) for a description of the fields (or the [Octo.exe command-line options](/docs/api-and-integration/octo.exe-command-line/push-metadata.md) for more details).
+
 ### Add a Create Octopus Release Step {#UsetheTeamFoundationBuildCustomTask-AddaCreateOctopusReleaseStep}
 
 Add a step to your Build or Release process, choose **Deploy**, click **Add** next to the **Create Octopus Release** task.

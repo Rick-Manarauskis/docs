@@ -3,13 +3,13 @@ title: GitHub Issue Tracking Integration
 description: Configure GitHub issue tracking with Octopus.
 ---
 
-**Octopus 2019.4** added integration with GitHub to allow Octopus to display links to Github issues for work items received from your build server. The integration adds GitHub issue details and links to your releases and deployments and it can automatically retrieve release notes from GitHub to help automate the release note process. This feature builds upon the functionality to [track metadata and work item](/docs/api-and-integration/metadata/index.md) information through your CI/CD pipeline.
+**Octopus 2019.4** added integration with GitHub to allow Octopus to display links to Github issues for work items received from your build server. The integration adds GitHub issue details and links to your releases and deployments, and it can automatically retrieve release notes from GitHub to help automate the release note process. This feature builds upon the functionality to [track metadata and work item](/docs/api-and-integration/metadata/index.md) information through your CI/CD pipeline.
 
 ![Octopus release with GitHub issues](octo-github-release-details.png "width=500")
 
 ![Octopus deployment with generated release notes](octo-github-release-notes.png "width=500")
 
-This page described how to configure this functionality for Octopus and Jira.
+This page describes how to configure this functionality for Octopus and GitHub.
 
 ## Connecting GitHub and Octopus Deploy
 
